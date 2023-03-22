@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { PilotaComponent } from './pilota/pilota.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PilotaComponent
   ],
   imports: [
     BrowserModule,
